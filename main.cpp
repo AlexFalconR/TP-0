@@ -3,10 +3,10 @@
  * Domingo 05/04/2015
  */
 
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-	cout << "!!!Hello World!!!" << end;
-	return 0;
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
 }
